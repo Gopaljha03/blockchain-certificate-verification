@@ -1,0 +1,16 @@
+{
+  "name": "certificate-verification-blockchain",
+  "version": "1.0.0",
+  "description": "Smart contract for Academic Certificate Verification using Hardhat",
+  "scripts": {
+    "node": "hardhat --config hardhat.config.cjs node",
+    "compile": "hardhat --config hardhat.config.cjs compile",
+    "test": "hardhat --config hardhat.config.cjs test",
+    "deploy:local": "hardhat --config hardhat.config.cjs run scripts/deploy.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0",
+    "typescript": "^5.4.5"
+  }
+}
